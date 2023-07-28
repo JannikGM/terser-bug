@@ -1,5 +1,6 @@
 export const longString0 = require("./index.js?raw&key=0")
 export const longString1 = require("./index.js?raw&key=1")
+console.log("🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁")
 console.log("Hello World!");
 console.log("Hello World!");
 console.log("Hello World!");
