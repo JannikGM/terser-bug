@@ -1,12 +1,20 @@
 // Generated using webpack-cli https://github.com/webpack/webpack-cli
 
 const path = require("path");
-const TerserPlugin = require('terser-webpack-plugin')
+const TerserPlugin = require("terser-webpack-plugin");
 
 const config = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
+  },
+  module: {
+    rules: [
+      {
+        resourceQuery: /raw/,
+        type: "asset/source",
+      },
+    ],
   },
   mode: "production",
   optimization: {
